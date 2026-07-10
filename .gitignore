@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Large model files (too big for GitHub)
+models/*.pkl
+models/q_table.npy
+
+# Dataset (too large)
+Data/
+
+# CatBoost
+catboost_info/
+
+# Backup & test
+backup/
+test/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
